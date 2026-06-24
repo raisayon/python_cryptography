@@ -38,3 +38,6 @@ In shift_cipher_encoder.py implementation, the encode function takes an incoming
 The decode operation in shift_cipher_encoder.py is completely unnecessary , but we have included it to emphasize that encoding and decoding in a substitution cipher work exactly the same.Only the dictionary needs to change.These function are sufficient to build an application.
 
 #shift cipher application
+Code explanation link : https://github.com/raisayon/python_cryptography/wiki#code-breakdown-for-shift_cipher_encoderpy---create_shift_substitutionsn
+
+
