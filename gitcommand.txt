@@ -1,7 +1,0 @@
-To set up Git for the first time, you need to configure your global user identity so your commits are properly credited to you.Open your terminal (or Git Bash on Windows) and run the following commands:1. Set Your IdentityReplace the placeholder text with your actual name and email. Use the same email address you plan to use for GitHub or GitLab.bashgit config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-Use code with caution.2. Set the Default Branch NameModern workflows use main as the default branch instead of the older legacy default master.bash git config --global init.defaultBranch main
-Use code with caution.3. Verify Your ConfigurationYou can print out all your saved settings to confirm they are accurate:bash git config --list
-Use code with caution.Next Steps: Starting Your First ProjectOnce configured, you can initialize your first repository by navigating to your project folder and tracking your progress:Initialize Git in your project folder:bash git init
-Use code with caution.Stage your files to prepare them for saving:bash git add .
-Use code with caution.Commit your changes to create your first permanent save point:bash git commit -m "Initial commit"
