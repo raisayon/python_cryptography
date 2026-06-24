@@ -5,6 +5,7 @@ import string
 # Utility Functions: Functions like capwords() are fully implemented in Python .
 # Classes: The Formatter and Template classes are defined here . The Template class, for example, uses the re module for pattern matching .
 
+#creating substitution tables
 def create_shift_substitutions(n):
     encoding = {}
     decoding = {}
@@ -29,6 +30,20 @@ def encode(message, subst):
 
 def decode(message, subst):
     return encode(message, subst)
+
+# def rot13encode(message, rot13):
+#     print(f"subst type: {type(rot13)}")  # Will show <class 'function'>
+#     cipher = ""
+#     for letter in message:
+#         if letter in rot13:
+#             cipher += rot13[letter]
+#         else:
+#             cipher += letter
+#     return cipher
+
+
+# def rot13decode(message, rot13):
+#     return encode(message, rot13)
 
 # Example 1: Simple Caesar-like substitution
 substitution = {
